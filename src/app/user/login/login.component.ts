@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  credentials = {
+    email: '',
+    password: ''
+  }
+
+  formIsValid = true;
+
+  login() {
+    if (this.credentials.email.length > 0 && this.credentials.password.length > 0) {
+      console.log(this.credentials)
+      return this.formIsValid = true
+    }
+    console.log('not valid')
+    return this.formIsValid = false
+  }
 }
