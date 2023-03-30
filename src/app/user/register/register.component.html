@@ -67,14 +67,10 @@
   <button
     type="submit"
     class="block w-full bg-indigo-400 text-white py-1.5 px-3 rounded transition hover:bg-indigo-500"
+    [disabled]="inSubmission"
+    [ngClass]="{'bg-gray-400' : inSubmission}"
   >
     Submit
   </button>
-  <p
-    *ngIf="registerForm.touched && !registerForm.valid"
-    class="text-red-400"
-  >
-    Please check the form. Not all fields are filled correct
-  </p>
 </form>
 
