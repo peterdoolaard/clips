@@ -1,5 +1,7 @@
 # Clipz
 
+## Angular project
+
 ![clips.webp](clips.webp)
 
 This is the main project from the course [Complete Angular Developer, Zero to Mastery](https://zerotomastery.io/courses/learn-angular). This course really improves my Angular skills in general and especially when it comes to RxJS. Working with API's is such an important part of front-end development. 
